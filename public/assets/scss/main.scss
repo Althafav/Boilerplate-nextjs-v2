@@ -1,0 +1,21 @@
+@import "reset.scss";
+@import "_partials/_typography";
+@import "_partials/_variables";
+@import "_partials/_functions";
+@import "_partials/_mixin";
+@import "_partials/_animations";
+@import "bootstrap-5.2.3/bootstrap.scss";
+@import "_partials/_controls";
+
+body {
+    background: $jet-black;
+}
+
+.my-card {
+    background-color: rgb(218, 218, 218);
+
+    .heading1 {
+        font-size: 64px;
+        font-weight: bold;
+    }
+}
